@@ -1,0 +1,34 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+@media (max-width: 480px) {
+    body {
+        background: lightsalmon;
+    }
+}
+
+@media (max-width: 1200px) {
+    body {
+        background: powderblue;
+    }
+}
+
+@media (max-width:1600px){
+    body{
+        background: limegreen;
+    }
+}
+
+@media (min-width: 1601px) {
+    body{
+        background: seagreen;
+    }
+}
